@@ -1,0 +1,33 @@
+PODS:
+  - ZegoExpressEngine (3.12.4)
+  - ZegoPluginAdapter (2.4.0)
+  - ZegoUIKit (2.10.0):
+    - ZegoExpressEngine (~> 3.12.4)
+    - ZegoPluginAdapter (>= 2.4.0)
+  - ZegoUIKitPrebuiltCall (2.10.0):
+    - ZegoUIKit (>= 2.9.0)
+  - ZegoUIKitPrebuiltLiveStreaming (2.7.0):
+    - ZegoUIKit (>= 2.10.0)
+
+DEPENDENCIES:
+  - ZegoUIKitPrebuiltCall
+  - ZegoUIKitPrebuiltLiveStreaming
+
+SPEC REPOS:
+  trunk:
+    - ZegoExpressEngine
+    - ZegoPluginAdapter
+    - ZegoUIKit
+    - ZegoUIKitPrebuiltCall
+    - ZegoUIKitPrebuiltLiveStreaming
+
+SPEC CHECKSUMS:
+  ZegoExpressEngine: 4134bbfaecf5ce4ab5c47338ff817942d646750f
+  ZegoPluginAdapter: 7976cae935479eac7242dd49cca77670567377ef
+  ZegoUIKit: 2ae268a696d15c09935fce550422d0c97c2e97a8
+  ZegoUIKitPrebuiltCall: 70f4d236aa2122bfd887055998bf4522ecb566b6
+  ZegoUIKitPrebuiltLiveStreaming: c0f71ccb0a0bd808a36085e81afc25e7f20350b1
+
+PODFILE CHECKSUM: dc9ba69e1f25840a3e3a494eea3c4471078a8816
+
+COCOAPODS: 1.15.2
